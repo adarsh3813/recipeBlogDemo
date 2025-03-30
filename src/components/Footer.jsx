@@ -1,5 +1,6 @@
 import React from "react";
 
+// Basic Footer for the App
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white text-center p-4 mt-auto">

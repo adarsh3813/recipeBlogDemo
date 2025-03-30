@@ -3,6 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { addUser } from "./utils/userSlice";
 import { useNavigate } from "react-router-dom";
 
+/*
+This is the login component that handles login
+We make a POST call to APi provided by the DUMMYJSON. The response contains a accessToken, which is saved in our
+Redux store along with other user details
+*/
 const Login = () => {
   const [userName, setUserName] = useState("emilys");
   const [password, setPassword] = useState("emilyspass");

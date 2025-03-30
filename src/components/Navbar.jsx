@@ -6,6 +6,9 @@ import { removeUser } from "./utils/userSlice";
 import { updateRecipes } from "./utils/recipeListSlice";
 import { updateSearchOnce } from "./utils/searchOnceSlice";
 
+/*
+Navbar is responsive and has search feature.
+*/
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const user = useSelector((store) => store.user);

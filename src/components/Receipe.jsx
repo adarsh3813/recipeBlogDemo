@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CommentsSection from "./CommentsSection";
 
+/*
+This is the recipe body component
+*/
 const Recipe = () => {
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState();

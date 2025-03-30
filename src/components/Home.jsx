@@ -5,6 +5,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addRecipes } from "./utils/recipeListSlice";
 
+/* 
+The main home page where we show all the receipes. Here we make a get call to the API to get all
+the recipes and show it to the user.
+The API call is made inside useEffect so that rendering is not blocked
+Also added a Shimmer for good UI experience
+*/
 const Home = () => {
   const user = useSelector((store) => store.user);
   const navigate = useNavigate();

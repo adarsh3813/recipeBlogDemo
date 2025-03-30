@@ -16,8 +16,8 @@ API: DummyJSON (for mock data)
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/recipe-blog-app.git
-cd recipe-blog-app
+git clone https://github.com/adarsh3813/recipeBlogDemo.git
+cd recipeBlogDemo
 
 ### 2️⃣ Install Dependencies
 
@@ -32,7 +32,7 @@ npm run dev
 
 (Default runs on http://localhost:5173)
 
-## Logging In
+## 💻 Logging In
 
 I have used a dummy user from DummyJSON to mimick real login. The username and password will be auto populated since this is just an DEMO project. As DummyJSON does not allow new users to just login. Only existing ones can login.
 

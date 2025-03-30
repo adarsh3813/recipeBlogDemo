@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// This ia functional component that resembles a single comment. This has been done separately to show modularity
 const Comment = ({ comment }) => {
   const [liked, setLiked] = useState(false);
   return (
